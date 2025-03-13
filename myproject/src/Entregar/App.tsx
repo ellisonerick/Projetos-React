@@ -9,7 +9,6 @@ import NotFound from './pages/NotFound';
 import Cadastro from './pages/Cadasatro';
 import Calculator from './pages/Calculadora';
 import Atividade from './pages/Atividade';
-import Condicional from './pages/Condicional';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -18,12 +17,10 @@ function App() {
     <Routes>
       <Route path='*' element={<NotFound/>} />
       <Route path='/' element={<Home/>} />
-      <Route path='/sobre' element={<Sobre/>} />
       <Route path='/atividade' element={<Atividade/>} />
       <Route path='/sobre/SobreEllison' element={<SobreEllison/>} />
       <Route path='/cadastro' element={<Cadastro/>} />
       <Route path='/calculadora' element={<Calculator/>} />
-      <Route path='/condicional' element={<Condicional/>} />
     </Routes>
   )
 }

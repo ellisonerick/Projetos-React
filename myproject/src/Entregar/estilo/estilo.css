@@ -295,11 +295,3 @@
     margin: 5px;
     border: 2px solid black;
 }
-
-/* CONDICIONAL */
-
-.cond-container{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-}
