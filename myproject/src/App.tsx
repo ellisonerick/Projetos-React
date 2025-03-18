@@ -11,6 +11,7 @@ import Calculator from './pages/Calculadora';
 import Atividade from './pages/Atividade';
 import Condicional from './pages/Condicional';
 import Comunicacao from './pages/Comunicacao';
+import Requisicoes from './Entregar/pages/Requisicoes';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route path='/calculadora' element={<Calculator/>} />
       <Route path='/condicional' element={<Condicional/>} />
       <Route path='/comunicacao' element={<Comunicacao/>} />
+      <Route path='/requisicoes' element={<Requisicoes/>} />
     </Routes>
   )
 }
