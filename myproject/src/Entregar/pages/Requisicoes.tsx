@@ -16,6 +16,7 @@ function Requisicoes(){
                     setProdutos(json);
             })
     }
+    
 
     function zerarProdutos(){
         setProdutos([])
@@ -31,6 +32,7 @@ function Requisicoes(){
             <br />
             Total de produtos {produtos.length}
             <br /> <hr />
+            <br />
             <br />
             <button onClick={zerarProdutos}>Zerar</button>
         </div>
