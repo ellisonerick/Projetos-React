@@ -5,7 +5,7 @@ function Comunicacao(){
     return(
         <div>
             <Pai/>
-            
+            <h1>teste de novo</h1>
         </div>
     )
 }
