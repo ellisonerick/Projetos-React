@@ -12,6 +12,7 @@ import Atividade from './pages/Atividade';
 import Condicional from './pages/Condicional';
 import Comunicacao from './pages/Comunicacao';
 import Requisicoes from './Entregar/pages/Requisicoes';
+import RequisicoesType from './Entregar/pages/Requisicoestype';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Route path='/condicional' element={<Condicional/>} />
       <Route path='/comunicacao' element={<Comunicacao/>} />
       <Route path='/requisicoes' element={<Requisicoes/>} />
+      <Route path='/requisicoestype' element={<RequisicoesType/>} />
     </Routes>
   )
 }
