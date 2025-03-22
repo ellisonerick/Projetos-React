@@ -13,6 +13,7 @@ import Condicional from './pages/Condicional';
 import Comunicacao from './pages/Comunicacao';
 import Requisicoes from './Entregar/pages/Requisicoes';
 import RequisicoesType from './Entregar/pages/Requisicoestype';
+import RequisicoesAsync from './Entregar/pages/RequisicoesAsync';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path='/comunicacao' element={<Comunicacao/>} />
       <Route path='/requisicoes' element={<Requisicoes/>} />
       <Route path='/requisicoestype' element={<RequisicoesType/>} />
+      <Route path='/requisicoesasync' element={<RequisicoesAsync/>} />
     </Routes>
   )
 }
