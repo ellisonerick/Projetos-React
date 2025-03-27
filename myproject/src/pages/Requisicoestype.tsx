@@ -1,8 +1,8 @@
-import '../../estilo/estilo.css'
+import '../estilo/estilo.css'
 import { useEffect, useState } from "react";
-import Cabe from "../../componentes/cabecalho";
+import Cabe from "../componentes/cabecalho";
 
-import { Produto } from "../../types/produtos";
+import { Produto } from "../types/produtos";
 
 function RequisicoesType(){
 

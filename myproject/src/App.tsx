@@ -11,9 +11,10 @@ import Calculator from './pages/Calculadora';
 import Atividade from './pages/Atividade';
 import Condicional from './pages/Condicional';
 import Comunicacao from './pages/Comunicacao';
-import Requisicoes from './Entregar/pages/Requisicoes';
-import RequisicoesType from './Entregar/pages/Requisicoestype';
-import RequisicoesAsync from './Entregar/pages/RequisicoesAsync';
+import Requisicoes from './pages/Requisicoes';
+import RequisicoesType from './pages/Requisicoestype';
+import RequisicoesAsync from './pages/RequisicoesAsync';
+import RequisicoesPost from './pages/RequisicoesPost';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Route path='/requisicoes' element={<Requisicoes/>} />
       <Route path='/requisicoestype' element={<RequisicoesType/>} />
       <Route path='/requisicoesasync' element={<RequisicoesAsync/>} />
+      <Route path='/requisicoespost' element={<RequisicoesPost/>}/>
     </Routes>
   )
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Cabe from "../../componentes/cabecalho";
+import Cabe from "../componentes/cabecalho";
 
 
 
