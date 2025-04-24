@@ -48,7 +48,7 @@ function Sobre() {
             <button onClick={handleMudarNome}>Mudar Nome</button>
             <br />
             <hr />
-            <Button color="danger">Danger</Button>
+            {/* <Button color="danger">Danger</Button> */}
             <Roda/>
         </div>
     )
