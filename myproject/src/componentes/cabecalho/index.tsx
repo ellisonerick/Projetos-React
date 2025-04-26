@@ -4,6 +4,7 @@ import '../../estilo/estilo.css'
 type Informacoes = {
     titulo?: string;
     pagina?: string;
+    parametro?: string;
 }
 
 function Cabe(valores: Informacoes) {

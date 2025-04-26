@@ -2,6 +2,7 @@ import { useState } from "react"
 import Cabe from "../componentes/cabecalho"
 import Roda from "../componentes/rodape"
 import { useParams, useNavigate } from "react-router-dom"
+import { Button } from "reactstrap";
 
 function Sobre() {
 
@@ -45,6 +46,9 @@ function Sobre() {
             O meu nome não é: {nome}
             <br />
             <button onClick={handleMudarNome}>Mudar Nome</button>
+            <br />
+            <hr />
+            {/* <Button color="danger">Danger</Button> */}
             <Roda/>
         </div>
     )

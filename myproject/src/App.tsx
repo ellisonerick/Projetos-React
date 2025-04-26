@@ -11,24 +11,33 @@ import Calculator from './pages/Calculadora';
 import Atividade from './pages/Atividade';
 import Condicional from './pages/Condicional';
 import Comunicacao from './pages/Comunicacao';
-import Requisicoes from './Entregar/pages/Requisicoes';
+import Requisicoes from './pages/Requisicoes';
+import RequisicoesType from './pages/Requisicoestype';
+import RequisicoesAsync from './pages/RequisicoesAsync';
+import RequisicoesPost from './pages/RequisicoesPost';
+import { UsuarioLogadoProvider } from './contexts/contextAuth';
 //import AulaAtiv from './ExerAula';
 
 function App() {
   
   return (
-    <Routes>
-      <Route path='*' element={<NotFound/>} />
-      <Route path='/' element={<Home/>} />
-      <Route path='/sobre' element={<Sobre/>} />
-      <Route path='/atividade' element={<Atividade/>} />
-      <Route path='/sobre/SobreEllison' element={<SobreEllison/>} />
-      <Route path='/cadastro' element={<Cadastro/>} />
-      <Route path='/calculadora' element={<Calculator/>} />
-      <Route path='/condicional' element={<Condicional/>} />
-      <Route path='/comunicacao' element={<Comunicacao/>} />
-      <Route path='/requisicoes' element={<Requisicoes/>} />
-    </Routes>
+    <UsuarioLogadoProvider>
+      <Routes>
+        <Route path='*' element={<NotFound/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/sobre' element={<Sobre/>} />
+        <Route path='/atividade' element={<Atividade/>} />
+        <Route path='/sobre/SobreEllison' element={<SobreEllison/>} />
+        <Route path='/cadastro' element={<Cadastro/>} />
+        <Route path='/calculadora' element={<Calculator/>} />
+        <Route path='/condicional' element={<Condicional/>} />
+        <Route path='/comunicacao' element={<Comunicacao/>} />
+        <Route path='/requisicoes' element={<Requisicoes/>} />
+        <Route path='/requisicoestype' element={<RequisicoesType/>} />
+        <Route path='/requisicoesasync' element={<RequisicoesAsync/>} />
+        <Route path='/requisicoespost' element={<RequisicoesPost/>}/>
+      </Routes>
+    </UsuarioLogadoProvider>
   )
 }
 
