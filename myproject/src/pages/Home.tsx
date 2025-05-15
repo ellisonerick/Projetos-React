@@ -33,6 +33,7 @@ function Home() {
             <br />
             <button onClick={handleClick}>Click here...</button>
             <br />
+            <button>Teste</button>
             <br />
             Usuario no Context: {UsuarioLogadoCtx?.name} {/*? = caso ele seja nullo ele não da erro*/}
             <Roda/>
@@ -40,4 +41,7 @@ function Home() {
     )
 }
 
-export default Home
+export default Home 
+
+//alteração teste de novo
+
