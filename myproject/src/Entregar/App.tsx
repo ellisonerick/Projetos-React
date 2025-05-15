@@ -3,7 +3,7 @@
 //import './estilo/estilo.css';
 import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
-import Sobre from './pages/Sobre';
+//import Sobre from './pages/Sobre';
 import SobreEllison from './pages/SobreEllison';
 import NotFound from './pages/NotFound';
 import Cadastro from './pages/Cadasatro';

@@ -1,6 +1,6 @@
-import Cabe from './Cabe'
-import Menu from './Menu'
-import Roda from './Roda'
+import Cabe from './componentes/cabeatv.tsx/index'
+import Menu from './componentes/menu/index'
+import Roda from './componentes/rodape/index'
 import './estilo/estilo.css'
 
 function AtiviAula05() {

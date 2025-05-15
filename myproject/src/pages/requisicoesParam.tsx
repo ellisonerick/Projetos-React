@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent } from "react";
 import { Usuarios } from "../types/usuarios";
 import Cabe from "../componentes/cabecalho";
-import FormPost from '../componentes/'
+import FormPost from '../componentes/formpost/index'
 
 function RequisicoesParam(){
 

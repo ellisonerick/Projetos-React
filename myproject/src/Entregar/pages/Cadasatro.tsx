@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Cabe from "../componentes/cabecalho"
-import Roda from "../componentes/rodape"
+import Cabe from "../../componentes/cabecalho/index"
+import Roda from "../../componentes/rodape/index"
 
 
 function Cadastro(){

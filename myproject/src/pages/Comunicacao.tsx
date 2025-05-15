@@ -1,4 +1,4 @@
-import Filho from "../componentes/filho";
+//import Filho from "../componentes/filho";
 import Pai from "../componentes/pai";
 
 function Comunicacao(){

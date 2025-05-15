@@ -1,8 +1,8 @@
-import CabeAtv from "../componentes/cabeatv.tsx";
-import Comp1 from "../componentes/comp1/index.tsx";
-import Comp2 from "../componentes/comp2/index.tsx";
-import Comp3 from "../componentes/comp3/index.tsx";
-import Comp4 from "../componentes/comp4/index.tsx";
+import CabeAtv from "../../componentes/cabeatv.tsx/index.tsx";
+import Comp1 from "../../componentes/comp1/index.tsx";
+import Comp2 from "../../componentes/comp2/index.tsx";
+import Comp3 from "../../componentes/comp3/index.tsx";
+import Comp4 from "../../componentes/comp4/index.tsx";
 
 function Atividade(){
     return(

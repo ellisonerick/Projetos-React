@@ -1,8 +1,8 @@
 import { useState } from "react"
 import Cabe from "../componentes/cabecalho"
 import Roda from "../componentes/rodape"
-import { useParams, useNavigate } from "react-router-dom"
-import { Button } from "reactstrap";
+import { useNavigate } from "react-router-dom"
+//import { Button } from "reactstrap";
 
 function Sobre() {
 

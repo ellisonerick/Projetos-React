@@ -74,6 +74,7 @@ function RequisicoesPost(){
                     </div>
                 </div>
             }
+            <Roda/>
     </div>
     )
 }
