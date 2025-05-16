@@ -6,17 +6,17 @@ import { UsuarioLogadoContext } from "../contexts/contextAuth";
 
 function Home() {
 
-    let numero1: number = 5;
-    let numero2: number = 10;
+    const [numero1, setNumero1] = useState<string>('');
+    const [numero2, setNumero2] = useState<string>('');
+    const [resultado, setResultado] = useState<number | null>(null);
 
     function Somar(n1: number, n2:number): number{
         return n1 + n2;
     }
 
-    const [resultado, setResultado] = useState<number | null>(null);
 
     const handleClick1 = () => {
-        const resultadoSoma = Somar(numero1, numero2);
+        const resultadoSoma = Somar(Number(numero1), Number(numero2));
         setResultado(resultadoSoma);
       };
 
@@ -34,9 +34,23 @@ function Home() {
                     
             ESSA É MINHA PÁGINA HOME
             <br />
-            Variavel 1 é: {numero1}
+            <input
+                type="text"
+                value={numero1}
+                onChange={(e) => setNumero1(e.target.value)}
+                placeholder="Digite o primeiro número"
+                inputMode="numeric"
+            />
+
             <br />
-            Variavel 2 é: {numero2}
+            <input
+                type="text"
+                value={numero2}
+                onChange={(e) => setNumero2(e.target.value)}
+                placeholder="Digite o segundo número"
+                inputMode="numeric"
+            />
+
             <br />
             <button onClick={handleClick1}>Somar</button>
             <br />
