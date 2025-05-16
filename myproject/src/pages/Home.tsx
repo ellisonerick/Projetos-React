@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Cabe from "../componentes/cabecalho";
 import Roda from "../componentes/rodape";
 import '../estilo/estilo.css'
@@ -10,8 +10,15 @@ function Home() {
     let numero2: number = 10;
 
     function Somar(n1: number, n2:number): number{
-        return n1 * n2;
+        return n1 + n2;
     }
+
+    const [resultado, setResultado] = useState<number | null>(null);
+
+    const handleClick1 = () => {
+        const resultadoSoma = Somar(numero1, numero2);
+        setResultado(resultadoSoma);
+      };
 
     const UsuarioLogadoCtx = useContext(UsuarioLogadoContext);
 
@@ -30,6 +37,10 @@ function Home() {
             Variavel 1 é: {numero1}
             <br />
             Variavel 2 é: {numero2}
+            <br />
+            <button onClick={handleClick1}>Somar</button>
+            <br />
+            Soma é igual: {resultado}
             <br />
             <button onClick={handleClick}>Click here...</button>
             <br />
