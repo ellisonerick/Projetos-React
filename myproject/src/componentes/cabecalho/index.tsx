@@ -16,7 +16,7 @@ function Cabe(valores: Informacoes) {
                     O titulo da page é: {valores.titulo}
                 </div>
                 <div className='iconHome'>
-                    <Link to={'/'}> HOMEE </Link>
+                    <Link to={'/'}> HOME </Link>
                 </div>
                 <div className='iconSobre'>
                     <Link to={'/sobre'}> SOBRE </Link>
