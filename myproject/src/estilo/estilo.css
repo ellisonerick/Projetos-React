@@ -178,6 +178,7 @@
     background-color: crimson;
     border: 2px black solid;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -186,6 +187,7 @@
     width: 90px;
     background-color: crimson;
     border: 2px black solid;
+    text-align: center;
 }
 
 .icon3{
@@ -193,6 +195,16 @@
     width: 90px;
     background-color: crimson;
     border: 2px black solid;
+    text-align: center;
+}
+/* IMC */
+
+.imc{
+    height: 50px;
+    width: 90px;
+    background-color: crimson;
+    border: 2px black solid;
+    text-align: center;
 }
 
 /* RODAPÉ */

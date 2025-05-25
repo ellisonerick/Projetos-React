@@ -16,6 +16,7 @@ import RequisicoesType from './pages/Requisicoestype';
 import RequisicoesAsync from './pages/RequisicoesAsync';
 import RequisicoesPost from './pages/RequisicoesPost';
 import { UsuarioLogadoProvider } from './contexts/contextAuth';
+import CalculoIMC from './pages/IMC';
 //import AulaAtiv from './ExerAula';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='/requisicoestype' element={<RequisicoesType/>} />
         <Route path='/requisicoesasync' element={<RequisicoesAsync/>} />
         <Route path='/requisicoespost' element={<RequisicoesPost/>}/>
+        <Route path='/imc' element={<CalculoIMC/>}/>
       </Routes>
     </UsuarioLogadoProvider>
   )

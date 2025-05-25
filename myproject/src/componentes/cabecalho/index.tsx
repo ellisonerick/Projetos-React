@@ -30,6 +30,9 @@ function Cabe(valores: Informacoes) {
                 <div className='icon3'>
                     <Link to={'/calculadora'}>Calculadora</Link>
                 </div>
+                <div className='imc'>
+                    <Link to={'/imc'}>IMC</Link>
+                </div>
             </div>
         </div>
     )
