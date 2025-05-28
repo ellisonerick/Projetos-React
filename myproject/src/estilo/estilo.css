@@ -207,6 +207,21 @@
     text-align: center;
 }
 
+.linkedin-link {
+  display: inline-block;
+  margin: 10px;
+}
+
+.linkedin-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.1);
+}
+
 /* RODAPÉ */
 
 .divRodaPai{

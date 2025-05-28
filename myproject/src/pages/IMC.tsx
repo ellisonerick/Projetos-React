@@ -87,6 +87,21 @@ function CalculoIMC(){
                     <button onClick={calcularIMC}>Calcular</button>
                     {resultado && <p className="resultado">{resultado}</p>}
                 </div>
+                <div>
+                    <a
+                        href="https://www.linkedin.com/in/ellisonerick/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="linkedin-link"
+                    >
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                        alt="LinkedIn"
+                        className="linkedin-icon"
+                    />
+                    </a>
+
+                </div>
             <Roda/>
         </div>
     )
