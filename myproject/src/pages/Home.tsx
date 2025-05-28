@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import Cabe from "../componentes/cabecalho";
 import Roda from "../componentes/rodape";
-import '../estilo/estilo.css'
+import '../estilo/estilo.css' 
 import { UsuarioLogadoContext } from "../contexts/contextAuth";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
 
     return (
         <div>
-            <Cabe   titulo="MEU TITULO - QUALQUER COISA"
+            <Cabe   titulo="MEU TITULO - HOME"
                     pagina="home"
                     parametro='Parametro Informado'/>
                     

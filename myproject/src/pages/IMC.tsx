@@ -46,7 +46,6 @@ function CalculoIMC(){
     setPeso(`${novaParteInt},${novaParteDec}`);
 
     } else {
-
     setPeso(valor.slice(0, 3));
     }};
 
@@ -84,6 +83,7 @@ function CalculoIMC(){
                         value={altura}
                         onChange={handleAlturaChange}
                     />
+                    <br />
                     <button onClick={calcularIMC}>Calcular</button>
                     {resultado && <p className="resultado">{resultado}</p>}
                 </div>
