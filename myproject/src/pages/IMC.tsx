@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cabe from "../componentes/cabecalho";
 import Roda from "../componentes/rodape";
+import { FaWhatsapp } from 'react-icons/fa'
 import '../estilo/estilo.css'
 
 function CalculoIMC(){
@@ -66,6 +67,10 @@ function CalculoIMC(){
         setAltura(valor);
     }};
 
+        const phoneNumber = "5514996988820";
+        const defaultMsg = encodeURIComponent("Olá! Encontrei sua calculadora de IMC e gostaria de conversar.");
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${defaultMsg}`;
+
     return(
         <div>
             <Cabe/>
@@ -88,6 +93,18 @@ function CalculoIMC(){
                     {resultado && <p className="resultado">{resultado}</p>}
                 </div>
                 <div>
+                     <div className="social-links flex justify-center gap-4 mt-4">
+                        {/* WhatsApp */}
+                        <a
+                        href={whatsappLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp"
+                        className="p-3 rounded-full bg-green-500 hover:bg-green-600 text-white shadow transition"
+                        >
+                        <FaWhatsapp size={24} color="#25D366"/>
+                        </a>
+                        </div>
                     <a
                         href="https://www.linkedin.com/in/ellisonerick/"
                         target="_blank"
